@@ -1,0 +1,32 @@
+{
+  "name": "no-code-app-builder",
+  "version": "1.0.0",
+  "description": "BuildFlow - An AI-powered no-code application builder with intuitive chat interface",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx live-server --port=8080 --open=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richplug06/no-code-app-builder.git"
+  },
+  "keywords": [
+    "no-code",
+    "app-builder",
+    "ai",
+    "web-development",
+    "builder",
+    "low-code"
+  ],
+  "author": "richplug06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richplug06/no-code-app-builder/issues"
+  },
+  "homepage": "https://github.com/richplug06/no-code-app-builder#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
